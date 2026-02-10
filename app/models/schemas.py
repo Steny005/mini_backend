@@ -15,7 +15,7 @@ class Activity(BaseModel):
     name: str
     description: str
 
-class LessonOutput:
+class LessonOutput(BaseModel):
     total_duration: int
     notes: List[NotesSection]
     learning_flow: List[LearningFlowStep]
